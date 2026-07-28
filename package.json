@@ -1,0 +1,9 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arjun-choudhary/atlas.git"
+  },
+  "devDependencies": {
+    "@antithesishq/bombadil": "^0.6.1"
+  }
+}

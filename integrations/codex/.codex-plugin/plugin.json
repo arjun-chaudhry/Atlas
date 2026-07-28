@@ -1,0 +1,22 @@
+{
+  "name": "Atlas",
+  "version": "0.1.1",
+  "description": "Connect Codex to a scoped Atlas instance.",
+  "author": {
+    "name": "Atlas"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Atlas",
+    "shortDescription": "Use scoped Atlas tools from Codex.",
+    "longDescription": "Connects Codex terminal sessions to Atlas through user-controlled scoped API tokens. Codex must use /api/codex/* endpoints so Atlas Settings can enforce tool access.",
+    "developerName": "Atlas",
+    "category": "Productivity",
+    "capabilities": [
+      "todos",
+      "email",
+      "scoped-api"
+    ],
+    "defaultPrompt": "Use Atlas only through configured scoped access. Check capabilities before reading or writing data."
+  }
+}
